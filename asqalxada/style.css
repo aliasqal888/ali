@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    /* width: 100%; */
+    padding: 0px;
+}
+.warpper .navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #dddddd;
+    padding: 10px 0px;
+    height: 40px;
+    margin: 0px;
+} 
+.warpper .navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    /* padding: 2px; */
+}
+a:hover{
+    background-color: orangered;
+    border: solid 1px white;
+    border-radius: 4px;
+    /* padding: 5px; */
+}
+button{
+    border-style: none;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: white;
+    text-transform: capitalize;
+    width: 25%;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: red;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+button:focus{
+    background-color: white;
+}
+#section-tow{
+    background-image: url(./img/25.jpg);
+    width: 100%;
+    /* height: 550px; */
+    margin-bottom: 40px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 40px 0px;
+}
+h1{
+    margin: 0rem;
+    text-transform: uppercase;
+    font-size: 2rem
+}
+#section-tow p{
+    text-transform: capitalize
+}
+#section-tow .container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* align-items: center; */
+    padding: 80px 40px;
+    text-align: center;
+}
+#section-tow .img-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* margin-left: 70px; */
+}
+
+#section-three .contect-items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#section-three .contect-items-one{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    padding: 40px 0px;
+}
+#section-three .contect-items-two{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 40px 0px;
+}
+#section-three .flex-container{
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 0px; */
+}
