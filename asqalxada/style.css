@@ -98,10 +98,72 @@ h1{
     justify-content: center;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 40px 0px;
+        padding: 40px 0px;
 }
 #section-three .flex-container{
     display: flex;
     flex-direction: column;
     /* padding: 20px 0px; */
 }
+#section-four{
+    background-color: silver;
+}
+#section-four .main-discription{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 40px 60px;
+    padding-top: 140px;
+    /* width: 100%; */
+}
+ .para-one{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 80px;
+   justify-content: space-between;
+   justify-content: space-evenly;
+}
+i{
+    font-size: 25px;
+}
+strong{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+ .box{
+    width: 347px;
+}
+#section-five .grid-img{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    align-content: center;
+    /* margin-bottom: 40px; */
+    padding: 20px 20px;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+#section-five .center-container{
+    text-align: center;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
