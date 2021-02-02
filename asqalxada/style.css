@@ -16,17 +16,22 @@ body{
 .warpper .navbar ul li a{
     color: white;
     text-decoration: none;
+    border-left: solid 1px black;
 }
 a {
     text-transform: uppercase;
     text-decoration: none;
     /* padding: 2px; */
 }
-a:hover{
+/* a:hover{
     background-color: orangered;
     border: solid 1px white;
     border-radius: 4px;
-    /* padding: 5px; */
+    padding: 5px;
+} */
+.bg-bule{
+    background-color: blue;
+    padding: 5px;
 }
 button{
     border-style: none;
@@ -35,8 +40,9 @@ button{
     padding: 8px;
     background-color: white;
     text-transform: capitalize;
-    width: 25%;
+    /* width: 25%; */
     margin-top: 30px;
+    font-weight: 70px;
 }
 button:hover{
     background-color: red;
@@ -71,6 +77,7 @@ h1{
     /* align-items: center; */
     padding: 80px 40px;
     text-align: center;
+    width: 600px;
 }
 #section-tow .img-slider{
     display: flex;
@@ -137,7 +144,7 @@ strong{
  .box{
     width: 347px;
 }
-#section-five .grid-img{
+.grid-img{
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -150,9 +157,13 @@ strong{
 h2{
     text-transform: uppercase;
     text-align: center;
+    padding: 20px 0px;
 }
-#section-five .center-container{
+.center-container{
     text-align: center;
+}
+#section-six{
+    background-color: silver;
 }
 
 .col-1 {width: 8.33%;}
