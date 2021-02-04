@@ -143,6 +143,8 @@ span {
 }
 #section-four {
   background-color: silver;
+  padding: 0px;
+  margin: 0px;
 }
 #section-four .main-discription {
   display: flex;
@@ -153,11 +155,12 @@ span {
   justify-content: space-around;
   justify-content: space-evenly;
   padding: 40px 60px;
-  padding-top: 140px;
+  /* padding-top: 140px; */
   /* width: 100%; */
 }
 .para-one {
   display: flex;
+  /* width: 380px; */
   flex-direction: column;
   margin-bottom: 80px;
   justify-content: space-between;
@@ -171,7 +174,10 @@ strong {
   font-size: 18px;
 }
 .box {
-  width: 347px;
+  width: 395px;
+}
+#section-six{
+  background-color: silver;
 }
 .grid-img {
   display: flex;
@@ -187,12 +193,45 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   padding: 20px 0px;
+  margin: 0px;
 }
 .center-container {
   text-align: center;
 }
-#section-six {
-  background-color: silver;
+#section-seven {
+  background-image: url(./img/bg-slider/subscribe-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  /* padding: 40px 0px; */
+}
+#section-seven .container-mid{
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-around;
+  /* width: 60%; */
+  padding: 20px;
+}
+#section-seven img{
+  border-radius: 50%;
+}
+#section-seven .transform{
+  transform: translateX(-300px);
+}
+.btn-bule{
+  background-color: blue;
+  border: none;
+  padding: 30px 50px;
+  border-radius: none;
+}
+#section-eight{
+  background-image: url(./img/man.jpg);
+}
+#section-eight .main-container{
+  display: flex;
+  background-color: red;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .col-1 {
