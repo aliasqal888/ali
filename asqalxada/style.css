@@ -174,7 +174,7 @@ strong {
   font-size: 18px;
 }
 .box {
-  width: 395px;
+  width: 421px;
 }
 #section-six{
   background-color: silver;
@@ -233,7 +233,24 @@ h2 {
   flex-direction: column;
   justify-content: center;
 }
-
+#section-eight .text-center ,span{
+  display: flex;
+  /* background-color: red; */
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+p{
+  color: darkblue;
+}
+#section-eight img{
+  border-radius: 50%;
+  margin-left: 20px;
+}
+#section-eight .container-header{
+  display: flex;
+  justify-content: space-between;
+}
 .col-1 {
   width: 8.33%;
 }
