@@ -3,6 +3,10 @@ body {
   /* width: 100%; */
   padding: 0px;
 }
+main{
+  font-size: 18px;
+  letter-spacing: 2px;
+}
 .warpper .navbar ul {
   display: flex;
   flex-direction: row;
@@ -102,11 +106,15 @@ span {
   font-size: 90px;
   color: silver;
   transform: translateX(50px);
-  transform: translateY(5px);
+  transform: translateY(1px);
+  color: #dddddd;
+  transform: translateY(-10px);
 }
 #section-three .transform-translate {
   padding: 0px;
-  transform: translateX(-80px);
+  transform: translateX(-60px);
+  /* color: #dddddd; */
+  /* width: 800px; */
   /* transform: translateY(40px); */
 }
 .translate ,h3{
@@ -174,7 +182,7 @@ strong {
   font-size: 18px;
 }
 .box {
-  width: 421px;
+  width: 500px;
 }
 #section-six{
   background-color: silver;
@@ -250,6 +258,11 @@ p{
 #section-eight .container-header{
   display: flex;
   justify-content: space-between;
+}
+#section-eight i{
+  margin-left: 20px;
+  transform: translateX(-80px);
+  padding: 20px;
 }
 .col-1 {
   width: 8.33%;
